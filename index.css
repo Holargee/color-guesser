@@ -1,0 +1,11 @@
+.circle{
+      background-color:rgb(200,100,50);
+				height:160px;
+				width:160px;
+				border-radius:80px;
+				margin:auto;
+				margin-top:30%;
+}
+.text{
+				width:25px;
+}
