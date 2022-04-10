@@ -4,13 +4,13 @@ function color(){
 				var c = Math.floor(Math.random() * 225);
 document.getElementById("circle").style.backgroundColor = "rgb("+a+","+b+","+c+")";
 document.getElementById("red").value = a;
-document.getElementById("blue").value = b;
-document.getElementById("green").value = c;
+document.getElementById("green").value = b;
+document.getElementById("blue").value = c;
 }
 function color2(){
 	var a =		document.getElementById("red");
-  var b = document.getElementById("blue");
-  var c = document.getElementById("green");
+  var b = document.getElementById("green");
+  var c = document.getElementById("blue");
 document.getElementById("circle").style.backgroundColor ="rgb("+a.value+","+b.value+"," +c.value+")";
 }	
 function dark(){
